@@ -1,0 +1,2 @@
+let player =`<div style="height: 0px; padding-bottom: 56.25%; position: relative;"> <iframe allow="autoplay; encrypted-media" allowfullscreen="true" frameborder="0" height="420" scrolling="no" src="https://embed.megatelevisionhd.site/espn3.html?get=aHR0cHM6Ly9lZGdlNC1zbC5jdmF0dHYuY29tLmFyLy9saXZlL2MzZWRzL0VTUE4zL1NBX0xpdmVfZGFzaF9lbmNfMkEvRVNQTjMubXBk" style="height: 100%; left: 0; position: absolute; width: 100%;" width="730"></iframe></div>`;
+for(const ele of document.getElementsByClassName("player")){ele.innerHTML=(player)};

@@ -1,8 +1,7 @@
-var playerInstance=jwplayer("player");
+        var playerInstance=jwplayer("player");
         playerInstance.setup( {
 
             playlist: [ {
-             image: image,
                 "sources": [ {
                     "default": false, "file": canal, "drm": {
                         "widevine": {
