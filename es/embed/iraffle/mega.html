@@ -4,11 +4,7 @@
       <meta name='referrer' content='no-referrer'>
       <meta content='width=device-width, initial-scale=1' name='viewport'>
       <script>
-        var iraffleUrl = "//148.251.236.102:2536/live/slowd/slowd/";
-        var iraffleEnd = ".m3u8"
       </script>
-      <!--Base del Reproductor-->
-      <script src="//assets.slowdsports.com/js/player/player.js"></script>
       <script src='//cdn.jsdelivr.net/npm/clappr@latest/dist/clappr.min.js'></script>
       <script src='//cdn.jsdelivr.net/npm/level-selector@latest/dist/level-selector.min.js'></script>
       <script src='//cdn.jsdelivr.net/npm/clappr-chromecast-plugin@latest/dist/clappr-chromecast-plugin.min.js'></script>
@@ -23,8 +19,13 @@
       <div id='aRzklaXf'></div>
       <div id="player"></div>
       <script>
+          var iraffleUrl = "http://148.251.236.102:2536/live/slowd/slowd/";
+          var iraffleEnd = ".m3u8"
           var num = "7";
           var fuente = iraffleUrl + num + iraffleEnd;
+          Document.write(fuente);
        </script>
+       <!--Base del Reproductor-->
+      <script src="//assets.slowdsports.com/js/player/clappr.js"></script>
    </body>
 </html>
