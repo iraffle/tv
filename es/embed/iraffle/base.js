@@ -1,2 +1,2 @@
-var ovoUrl = "//www.ovostreams.com/";
-var ovoEnd = ".m3u8"
+var iraffleUrl = "//148.251.236.102:2536/live/slowd/slowd/";
+var iraffleEnd = ".m3u8"
