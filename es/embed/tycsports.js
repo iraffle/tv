@@ -3,7 +3,7 @@
                 playlist: [ {
                     "sources": [ {
                         "default": false,
-    "file":'https://edge4-hr.cvattv.com.ar/live/c3eds/TyCSport/SA_Live_dash_enc/TyCSport.mpd',
+    "file":'//edge4-hr.cvattv.com.ar/live/c3eds/TyCSport/SA_Live_dash_enc/TyCSport.mpd',
     "drm": {
                            "widevine": {
                                 "url": "https://televisionenvivo-internet.online/cv.php"
